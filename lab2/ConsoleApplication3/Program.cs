@@ -16,16 +16,12 @@ namespace ConsoleApplication3
             a = int.Parse(s);
             int v;
             if (a <= 0)
-
             {
                 Console.WriteLine("Значение A должно быть положительным");
                 return;
-            } v = a * a * a;
+            }
+            v = a * a * a;
             Console.WriteLine("{0:F4}", v);
-
-
-
-
         }
     }
 }

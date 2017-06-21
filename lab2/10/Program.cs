@@ -4,20 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace t_2
+namespace _10
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string B;
-            B = Console.ReadLine();
-            double a;
-            a = int.Parse(B);
+            string X;
+            X = Console.ReadLine();
+            double x;
+            x= int.Parse(X);
+            double R;
+            R = x * Math.PI / 180;
             double t;
-            t=a*Math.PI/180;
+            t = Math.Sin(R);
             Console.WriteLine("{0:F4}", t);
         }
     }
 }
-
